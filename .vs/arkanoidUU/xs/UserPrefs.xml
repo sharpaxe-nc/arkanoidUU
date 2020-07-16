@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{D79506DC-A771-E3DC-7316-AEA5C307A9EE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Racket.cs" Line="8" Column="29" />
+      <File FileName="Assets/Scripts/Ball.cs" Line="11" Column="5" />
+      <File FileName="Assets/Scripts/Block.cs" Line="8" Column="15" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="43" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="arkanoidUU" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GameManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cf625582-ae10-40c5-a020-b24326f052c5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
