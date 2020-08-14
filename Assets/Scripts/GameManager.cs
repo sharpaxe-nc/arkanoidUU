@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     bool gameOver = false;
     public float restartDelay = 3f;
+    public GameObject completeUI;
 
     public void GameOver()
     {
@@ -18,10 +19,18 @@ public class GameManager : MonoBehaviour
         }
         
     }
+    
+    public void CompleteLevel()
+    {
+        
+        completeUI.SetActive(true);
+        Invoke("LevelCompleted", restartDelay);
+
+    }
 
     public void LevelCompleted()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     void Restart()
@@ -37,10 +46,10 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (GameObject.FindGameObjectsWithTag("Block").Length == 1)
+        if (GameObject.FindGameObjectsWithTag("Block").Length <= 1)
         {
-            Debug.Log("You Win!");
-            LevelCompleted();
+            CompleteLevel();
+            
         }
     }
 }
